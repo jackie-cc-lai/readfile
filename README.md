@@ -4,4 +4,4 @@ The program gets a filename argument from command line, as such:
 
 ### >> python read_fileinfo.py \<filename\>
 
-where <filename> is the file including its suffix, and returns video_info.csv, info.log, and error.log.
+where \<filename\> is the file including its suffix, and returns video_info.csv, info.log, and error.log.
