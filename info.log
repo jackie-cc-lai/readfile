@@ -18,3 +18,62 @@
 2019-10-29 23:10:45,242 - info - INFO - Retrieving metadata from file for processing
 2019-10-29 23:10:45,299 - info - INFO - Program terminated
 2019-10-29 23:10:45,299 - info - INFO - Duration: 0.05896615982055664
+2019-10-29 23:26:54,430 - info - INFO - Program started
+2019-10-29 23:26:54,432 - info - INFO - Retrieving metadata from file for processing
+2019-10-29 23:26:54,578 - info - INFO - Parsing file duration
+2019-10-29 23:26:54,578 - info - INFO - Parsing video frames per second
+2019-10-29 23:26:54,578 - info - INFO - parsing file resolution
+2019-10-29 23:26:54,578 - info - INFO - parsing all data into class
+2019-10-29 23:26:54,578 - info - INFO - Writing to csv file
+2019-10-29 23:26:54,579 - info - INFO - Program terminated
+2019-10-29 23:26:54,580 - info - INFO - Duration: 0.15189814567565918
+2019-10-29 23:28:24,932 - info - INFO - Program started
+2019-10-29 23:28:24,933 - info - INFO - Retrieving metadata from file for processing
+2019-10-29 23:28:24,986 - info - INFO - Program terminated
+2019-10-29 23:28:24,986 - info - INFO - Duration: 0.05497026443481445
+2019-10-29 23:31:31,680 - info - INFO - Program started
+2019-10-29 23:31:31,680 - info - INFO - Retrieving metadata from file for processing
+2019-10-29 23:31:31,771 - info - INFO - Parsing file duration
+2019-10-29 23:31:31,772 - info - INFO - Parsing video frames per second
+2019-10-29 23:31:31,772 - info - INFO - parsing file resolution
+2019-10-29 23:31:31,772 - info - INFO - parsing all data into class
+2019-10-29 23:31:31,772 - info - INFO - Writing to csv file
+2019-10-29 23:33:27,359 - info - INFO - Program started
+2019-10-29 23:33:27,360 - info - INFO - Retrieving metadata from file for processing
+2019-10-29 23:33:27,441 - info - INFO - Parsing file duration
+2019-10-29 23:33:27,441 - info - INFO - Parsing video frames per second
+2019-10-29 23:33:27,441 - info - INFO - parsing file resolution
+2019-10-29 23:33:27,441 - info - INFO - parsing all data into class
+2019-10-29 23:33:27,441 - info - INFO - Writing to csv file
+2019-10-29 23:33:41,772 - info - INFO - Program started
+2019-10-29 23:33:41,773 - info - INFO - Retrieving metadata from file for processing
+2019-10-29 23:33:41,852 - info - INFO - Parsing file duration
+2019-10-29 23:33:41,852 - info - INFO - Parsing video frames per second
+2019-10-29 23:33:41,852 - info - INFO - parsing file resolution
+2019-10-29 23:33:41,852 - info - INFO - parsing all data into class
+2019-10-29 23:33:41,852 - info - INFO - Writing to csv file
+2019-10-29 23:34:01,071 - info - INFO - Program started
+2019-10-29 23:34:01,071 - info - INFO - Retrieving metadata from file for processing
+2019-10-29 23:34:01,150 - info - INFO - Parsing file duration
+2019-10-29 23:34:01,150 - info - INFO - Parsing video frames per second
+2019-10-29 23:34:01,150 - info - INFO - parsing file resolution
+2019-10-29 23:34:01,150 - info - INFO - parsing all data into class
+2019-10-29 23:34:01,150 - info - INFO - Writing to csv file
+2019-10-29 23:34:01,151 - info - INFO - Program terminated
+2019-10-29 23:34:01,151 - info - INFO - Duration: 0.08195328712463379
+2019-10-29 23:34:21,167 - info - INFO - Program started
+2019-10-29 23:34:21,167 - info - INFO - Retrieving metadata from file for processing
+2019-10-29 23:34:21,248 - info - INFO - Parsing file duration
+2019-10-29 23:34:21,248 - info - INFO - Parsing video frames per second
+2019-10-29 23:34:21,248 - info - INFO - parsing file resolution
+2019-10-29 23:34:21,248 - info - INFO - parsing all data into class
+2019-10-29 23:34:21,248 - info - INFO - Writing to csv file
+2019-10-29 23:34:37,013 - info - INFO - Program started
+2019-10-29 23:34:37,013 - info - INFO - Retrieving metadata from file for processing
+2019-10-29 23:34:37,102 - info - INFO - Parsing file duration
+2019-10-29 23:34:37,103 - info - INFO - Parsing video frames per second
+2019-10-29 23:34:37,103 - info - INFO - parsing file resolution
+2019-10-29 23:34:37,103 - info - INFO - parsing all data into class
+2019-10-29 23:34:37,103 - info - INFO - Writing to csv file
+2019-10-29 23:34:37,105 - info - INFO - Program terminated
+2019-10-29 23:34:37,105 - info - INFO - Duration: 0.09393191337585449

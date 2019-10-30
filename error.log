@@ -3,3 +3,5 @@
 2019-10-29 23:09:36,776 - info - ERROR - File does not exist
 2019-10-29 23:10:45,298 - info - ERROR - Subprocess command returned non-zero exit status 1
 2019-10-29 23:10:45,298 - info - ERROR - File corrupted
+2019-10-29 23:28:24,985 - info - ERROR - Subprocess command returned non-zero exit status 1
+2019-10-29 23:28:24,986 - info - ERROR - File corrupted

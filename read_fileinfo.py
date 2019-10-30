@@ -111,10 +111,12 @@ if (file_true):
                 filefps = round(int(filefps[0])/int(filefps[1]))
                 logger.info('parsing file resolution')
                 res = str(filemeta['streams'][0]['width'])+ "px width "+ str(filemeta['streams'][0]['height']) +"px height"
-                
+                bitrate = filemeta['streams'][0]['bit_rate']
+                bitrate = round(int(bitrate)/1000)
+                bitrate = str(bitrate) + "kb/s"
                 #storing into class
                 logger.info('parsing all data into class')
-                fileData = fileMeta(res, duration, filemeta['streams'][0]['codec_type'], filemeta['streams'][0]['bit_rate'], filemeta['streams'][0]['codec_long_name'], filefps)
+                fileData = fileMeta(res, duration, filemeta['streams'][0]['codec_type'], bitrate, filemeta['streams'][0]['codec_long_name'], filefps)
 
                 #writing to csv file
                 logger.info('Writing to csv file')
