@@ -103,7 +103,7 @@ if (file_true):
                 
             getFinalTime()
         else:
-            print("File corrupted")
+            print("File cannot be processed as it is corrupted, please ensure file integrity before trying again")
             logger.error("File corrupted")
             getFinalTime()
             
