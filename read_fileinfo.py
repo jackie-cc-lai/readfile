@@ -9,8 +9,7 @@ import logging
 from logFilter import LogFilter
 from fileMeta import fileMeta
 from fileMeta import getMetaData
-from ffmpy import ffmpeg
-import ffmpy
+from convertmov import makemp4
 
 start_time = time.time()
 #Use regex to test if file is mp4/mov or not (use regex because we need to make sure files like ..mp4 isn't passed through - in other cases the OS itself would likely disallow such)
@@ -59,7 +58,7 @@ if (file_true):
             fileMin = int(fileLength/60 - fileHours*60)
             fileSec = int(fileLength - fileMin*60 - fileHours*3600)
             fileMs = int((fileLength - fileSec - fileMin*60 - fileHours*3600)*1000)
-			# Standardize how it looks
+            # Standardize how it looks
             if fileHours == 0:
                 fileHours = '00'
             else: 
@@ -96,7 +95,12 @@ if (file_true):
             with open('video_info.csv', 'a') as csvWrite:
                 file_write = csv.writer(csvWrite, delimiter=',', quoting=csv.QUOTE_MINIMAL)
                 file_write.writerow( [fileData.res, fileData.duration,fileData.bitrate,fileData.codec,fileData.encoder, fileData.fps])
-                    
+                
+            if sys.argv[1].endswith('.mov'):
+				logger.info('mov file initiating conversion')
+                makemp4(sys.argv[1])
+				logger.info('mov file finished conversion')
+                
             getFinalTime()
         else:
             print("File corrupted")
