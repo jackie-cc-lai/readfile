@@ -9,10 +9,12 @@ import logging
 from logFilter import LogFilter
 from fileMeta import fileMeta
 from fileMeta import getMetaData
+from ffmpy import ffmpeg
+import ffmpy
 
 start_time = time.time()
-#Use regex to test if file is mp4/mov or not (use regex because we need to make sure files like ..mp4 isn't passed through)
-file_true = re.search('^[^.]*(?:.mp4|.mov)$', sys.argv[1].lower())
+#Use regex to test if file is mp4/mov or not (use regex because we need to make sure files like ..mp4 isn't passed through - in other cases the OS itself would likely disallow such)
+file_true = re.search('^[\w\W]+ *(?:.mp4|.mov)$', sys.argv[1].lower())
 # create loggers
 logger = logging.getLogger('info')
 logger.setLevel(logging.DEBUG)
