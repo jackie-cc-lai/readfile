@@ -1,0 +1,15 @@
+2019-10-30 10:05:00,514 - info - INFO - Program started
+2019-10-30 10:05:00,514 - info - INFO - Program terminated
+2019-10-30 10:05:00,514 - info - INFO - Duration: 0.0029981136322021484
+2019-10-30 10:06:45,653 - info - INFO - Program started
+2019-10-30 10:06:45,956 - info - INFO - Program terminated
+2019-10-30 10:06:45,956 - info - INFO - Duration: 0.30384159088134766
+2019-10-30 10:06:50,852 - info - INFO - Program started
+2019-10-30 10:06:50,853 - info - INFO - Retrieving metadata from file for processing
+2019-10-30 10:06:50,933 - info - INFO - Parsing file duration
+2019-10-30 10:06:50,933 - info - INFO - Parsing video frames per second
+2019-10-30 10:06:50,933 - info - INFO - parsing file resolution
+2019-10-30 10:06:50,933 - info - INFO - parsing all data into class
+2019-10-30 10:06:50,934 - info - INFO - Writing to csv file
+2019-10-30 10:06:50,935 - info - INFO - Program terminated
+2019-10-30 10:06:50,935 - info - INFO - Duration: 0.08495092391967773
