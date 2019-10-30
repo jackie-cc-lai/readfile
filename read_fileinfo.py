@@ -2,15 +2,13 @@ import sys
 import ffmpeg
 import re
 from ffpyplayer.player import MediaPlayer
-import subprocess
-import shlex
 import time
-import json
 import csv
 import os
 import logging
 from logFilter import LogFilter
 from fileMeta import fileMeta
+from fileMeta import getMetaData
 
 start_time = time.time()
 #Use regex to test if file is mp4/mov or not (use regex because we need to make sure files like ..mp4 isn't passed through)
@@ -41,19 +39,6 @@ def getFinalTime():
     dur = str(time.time() - start_time)
     logger.info('Duration: ' + dur)
     
-def getMetaData(file):
-    cmd = "ffprobe -v quiet -print_format json -show_streams"
-    args = shlex.split(cmd) #I was hoping I didn't need this but I need to actually split it instead of changing the command to an array on its own
-    args.append(file)
-    try:
-        metadata = subprocess.check_output(args)
-        metadata = json.loads(metadata)
-        return metadata
-    except:
-        logger.error('Subprocess command returned non-zero exit status 1')
-        metadata = ''
-        return metadata
-  
 if (file_true):
     if(sys.argv[1].lower() == '.mp4' or sys.argv[1].lower() == '.mov'):
         print("The program is intended for mov and mp4 files only, please try again") #Edge case - if the entry is literally just the suffix itself (since thats just not a file)

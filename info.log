@@ -89,3 +89,35 @@
 2019-10-30 09:39:15,127 - info - INFO - Writing to csv file
 2019-10-30 09:39:15,128 - info - INFO - Program terminated
 2019-10-30 09:39:15,128 - info - INFO - Duration: 0.1259152889251709
+2019-10-30 09:47:05,967 - info - INFO - Program started
+2019-10-30 09:47:05,967 - info - INFO - Program terminated
+2019-10-30 09:47:05,967 - info - INFO - Duration: 0.0019986629486083984
+2019-10-30 09:47:14,902 - info - INFO - Program started
+2019-10-30 09:47:14,902 - info - INFO - Retrieving metadata from file for processing
+2019-10-30 09:47:47,711 - info - INFO - Program started
+2019-10-30 09:47:47,712 - info - INFO - Retrieving metadata from file for processing
+2019-10-30 09:47:47,792 - info - INFO - Parsing file duration
+2019-10-30 09:47:47,792 - info - INFO - Parsing video frames per second
+2019-10-30 09:47:47,792 - info - INFO - parsing file resolution
+2019-10-30 09:47:47,792 - info - INFO - parsing all data into class
+2019-10-30 09:47:47,793 - info - INFO - Writing to csv file
+2019-10-30 09:47:47,793 - info - INFO - Program terminated
+2019-10-30 09:47:47,793 - info - INFO - Duration: 0.08295369148254395
+2019-10-30 09:47:57,584 - info - INFO - Program started
+2019-10-30 09:47:57,584 - info - INFO - Retrieving metadata from file for processing
+2019-10-30 09:47:57,667 - info - INFO - Parsing file duration
+2019-10-30 09:47:57,667 - info - INFO - Parsing video frames per second
+2019-10-30 09:47:57,667 - info - INFO - parsing file resolution
+2019-10-30 09:47:57,667 - info - INFO - parsing all data into class
+2019-10-30 09:47:57,667 - info - INFO - Writing to csv file
+2019-10-30 09:47:57,668 - info - INFO - Program terminated
+2019-10-30 09:47:57,668 - info - INFO - Duration: 0.08595037460327148
+2019-10-30 09:48:13,988 - info - INFO - Program started
+2019-10-30 09:48:13,989 - info - INFO - Retrieving metadata from file for processing
+2019-10-30 09:48:14,072 - info - INFO - Parsing file duration
+2019-10-30 09:48:14,072 - info - INFO - Parsing video frames per second
+2019-10-30 09:48:14,072 - info - INFO - parsing file resolution
+2019-10-30 09:48:14,072 - info - INFO - parsing all data into class
+2019-10-30 09:48:14,073 - info - INFO - Writing to csv file
+2019-10-30 09:48:14,073 - info - INFO - Program terminated
+2019-10-30 09:48:14,073 - info - INFO - Duration: 0.08695077896118164
