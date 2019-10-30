@@ -77,7 +77,7 @@ if (file_true):
                 fileMs = str(fileMs)
              
             #changing int to string now that the operations are done
-            duration = fileHours+ " hr "+fileMin+" m " + fileSec+" s " + fileMs + " ms"
+            duration = fileHours+ " hr "+fileMin+" min " + fileSec+" sec " + fileMs + " ms"
             logger.info('Parsing video frames per second')
             filefps = filemeta['streams'][0]['r_frame_rate']
             filefps = filefps.split("/")
@@ -92,14 +92,14 @@ if (file_true):
             fileData = fileMeta(res, duration, filemeta['streams'][0]['codec_type'], bitrate, filemeta['streams'][0]['codec_long_name'], filefps)
             #writing to csv file
             logger.info('Writing to csv file')
-            with open('video_info.csv', 'a') as csvWrite:
+            with open('video_info.csv', 'a', newline='') as csvWrite:
                 file_write = csv.writer(csvWrite, delimiter=',', quoting=csv.QUOTE_MINIMAL)
-                file_write.writerow( [fileData.res, fileData.duration,fileData.bitrate,fileData.codec,fileData.encoder, fileData.fps])
+                file_write.writerow([fileData.res, fileData.duration,fileData.bitrate,fileData.codec,fileData.encoder, fileData.fps])
                 
             if sys.argv[1].endswith('.mov'):
-				logger.info('mov file initiating conversion')
+                logger.info('mov file initiating conversion')
                 makemp4(sys.argv[1])
-				logger.info('mov file finished conversion')
+                logger.info('mov file finished conversion')
                 
             getFinalTime()
         else:
