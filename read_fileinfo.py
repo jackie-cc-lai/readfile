@@ -48,7 +48,7 @@ if (file_true):
     else:
         #We now read the metadata via ffmpeg/ffprobe
         logger.info('Retrieving metadata from file for processing')
-        filemeta = getMetaData(sys.argv[1])
+        filemeta = getMetaData(sys.argv[1], logger)
         if filemeta != '':  
             #get the hours, min, sec, ms from the duration variable
             logger.info('Parsing file duration')

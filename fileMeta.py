@@ -11,7 +11,7 @@ class fileMeta:
         self.encoder = encoder   
         self.fps = fps
         
-def getMetaData(file):
+def getMetaData(file, logger):
     cmd = "ffprobe -v quiet -print_format json -show_streams"
     args = shlex.split(cmd) #I was hoping I didn't need this but I need to actually split it instead of changing the command to an array on its own
     args.append(file)
